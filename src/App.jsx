@@ -95,14 +95,14 @@ function App() {
                   paragraph="La NBA es una de las competiciones deportivas más importantes del mundo. Este negocio millonario congrega a espectadores de todo el planeta y sus principales jugadores y equipos tienen una enorme popularidad. Pero además el baloncesto forma parte de la identidad de EE. UU., es reflejo de las convulsiones políticas del país y sirve como una herramienta diplomática del Gobierno."
                 />
                 <Gusto
-                  url="https://cdn2.unrealengine.com/egs-social-rocketleague-news-1920x1080-1920x1080-975383433.jpg"
-                  title="Rocket League"
-                  paragraph="Rocket League es un videojuego multijugador desarrollado por Psyonix, un desarrollador de videojuegos con sede en California. Por lo general, involucra a dos equipos que luchan entre sí en una variedad de rondas que involucran baloncesto, fútbol y hockey basados ​​​​en automóviles para marcar la mayor cantidad de goles. liga de cohetes es clasificado PEGI 3."
-                />
-                <Gusto
                   url="https://www.salvoxgracia.com/wp-content/uploads/2019/01/la-biblia-sus-atributos.jpg"
                   title="Biblia"
                   paragraph="Se conoce como la Biblia a un conjunto de textos religiosos que sirven de sustento sagrado tanto a la religión judía (Antiguo Testamento) como cristiana (Antiguo y Nuevo Testamentos). Se trata del libro más vendido de todos los tiempos, con 100 millones de copias anuales, traducido a 2454 idiomas."
+                />
+                <Gusto
+                  url="https://cdn2.unrealengine.com/egs-social-rocketleague-news-1920x1080-1920x1080-975383433.jpg"
+                  title="Rocket League"
+                  paragraph="Rocket League es un videojuego multijugador desarrollado por Psyonix, un desarrollador de videojuegos con sede en California. Por lo general, involucra a dos equipos que luchan entre sí en una variedad de rondas que involucran baloncesto, fútbol y hockey basados ​​​​en automóviles para marcar la mayor cantidad de goles. liga de cohetes es clasificado PEGI 3."
                 />
               </div>
             </div>
@@ -128,7 +128,7 @@ function App() {
                   <p>
                     Después de esos 2 años, me decidí ingresar en la carrera de
                     Ingeniería en Ciencias de la Computación y Tecnologías de la
-                    Información
+                    Información.
                   </p>
                 </div>
               </div>

@@ -300,7 +300,12 @@
   text-shadow: 3px 3px black;
 }
 
+.Mecontent {
+  width: 100%;
+}
+
 .sectoresMe {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,6 +313,7 @@
 
 .gustos {
   width: 50%;
+  max-width: 50%;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -340,16 +346,23 @@
 .Allgustos {
   width: 90%;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: columns;
   justify-content: space-around;
+  overflow: scroll;
 }
 
 .Allgustos::-webkit-scrollbar {
   display: none;
 }
 
+.Allgustos Gustos {
+  flex: 1 1 100px;
+}
+
 .trayecto {
   width: 50%;
+  max-width: 50%;
   height: 630px;
   display: flex;
   flex-direction: column;
@@ -363,11 +376,11 @@
 }
 
 .Trayectos {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
   overflow: scroll;
 }
 
@@ -376,6 +389,7 @@
 }
 
 .Trayecto {
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -384,6 +398,12 @@
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 2px 2px 1px white;
+}
+
+.Trayecto img{
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
 }
 
 .Trayecto:hover {
@@ -413,15 +433,6 @@
   font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.line {
-  height: 3px;
-  background-color: white;
-  border-radius: 100px;
-  transform: translateY(-1px);
-  width: 4px;
-  height: 40px;
 }
 
 .skills {
