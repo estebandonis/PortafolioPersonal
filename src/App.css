@@ -564,12 +564,14 @@
 
 .allProjects {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: columns;
+  justify-content: center;
 }
 
-@media (max-width: 900px){
-  .allProjects {
-    flex-direction: column;
-  }
+.allProjects Projects {
+  flex: 1 1 100px;
 }
 
 .reveal {

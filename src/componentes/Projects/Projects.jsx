@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { styles, imagen, descrip, botones } from './Projects.module.css'
+import { styles, imagen, descrip, botones, titulo } from './Projects.module.css'
 
 const Projects = ({ url, title, description, repo, oficial }) => {
   return (
     <div className={styles}>
-      <div>{title}</div>
+      <div className={titulo}>{title}</div>
       <div className={imagen}>
         <img src={url} alt="" />
       </div>

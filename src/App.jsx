@@ -103,7 +103,12 @@ function App() {
         <div className="Projectscontent reveal">
           <h2>Projects</h2>
           <div className="allProjects">
-            <Projects url="/sword.png" title="Espada" description="fjkdlsajñfkdñlsjafkldsñjakfjdajfklañjfkdsajfñajk"/>
+            <Projects url="/Labyrinth.jpg" title="Labyrinth Game" description="Labyrinth game made with React" repo='https://github.com/estebandonis/Laboratorio8-QuintoSemestre-Web.git' oficial='https://cosmic-chaja-ba9b8b.netlify.app/' />
+            <Projects url="/Calculator.jpg" title="Calculator" description="Calculator tool made with React" repo='https://github.com/estebandonis/Laboratorio9-QuintoSemestre-Web.git' oficial='https://uvgenios.online/21610/Laboratorio9-QuintoSemestre-Web/' />
+            <Projects url="/Cards.jpg" title="Card Game" description="Card game made with React" repo='https://github.com/estebandonis/Laboratorio6-QuintoSemestre-Web.git' oficial='https://uvgenios.online/21610/Laboratorio6-QuintoSemestre-Web/index.html' />
+            <Projects url="/Clone.jpg" title="Pomofocus Clone" description="Clone of Pomofocus.com page using React" repo='https://github.com/estebandonis/Proyecto1-QuintoSemestre-Web.git' oficial='https://uvgenios.online/21610/Proyecto1/' />
+            <Projects url="/Rest.jpg" title="Rest API" description="Rest API made using Node.js and Express.js for hospital's services website" repo='https://github.com/estebandonis/ProyectoFinal-IngenieriaDeSoftware-backend.git' />
+            <Projects url="/Android.jpg" title="Android Application" description="Android Application for consulting deals in supermarkets" repo='https://github.com/SebasJuarez/Grocery_Shopping.git' />
           </div>
         </div>
       </div>
