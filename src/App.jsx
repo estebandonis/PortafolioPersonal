@@ -26,9 +26,9 @@ function App() {
       <div className="nav">
         <button className="boton" type="button">Introduction</button>
         <div className="navButtons">
-          <button className="boton" type="button">More About Me</button>
-          <button className="boton" type="button">Skills</button>
-          <button className="boton" type="button">Projects</button>
+          <a href="#Yo"><button className="boton" type="button">More About Me</button></a>
+          <a href="#Skills"><button className="boton" type="button">Skills</button></a>
+          <a href="#Projects"><button className="boton" type="button">Projects</button></a>
         </div>
       </div>
       <div className="secciones inicio">
@@ -43,7 +43,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="secciones Me">
+      <div id="Yo" className="secciones Me">
         <div className="Mecontent reveal">
           <h2>About Me</h2>
           <div className="sectoresMe">
@@ -77,7 +77,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="secciones skills">
+      <div id="Skills" className="secciones skills">
         <div className="Skillcontent reveal">
           <h2>Skills</h2>
           <div className="ConjuntosSkills">
@@ -99,7 +99,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="secciones projects">
+      <div id="Projects" className="secciones projects">
         <div className="Projectscontent reveal">
           <h2>Projects</h2>
           <div className="allProjects">
