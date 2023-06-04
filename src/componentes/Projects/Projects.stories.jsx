@@ -21,7 +21,8 @@ export const OneLink = Template.bind({})
 OneLink.args = {
   url: 'https://cnnespanol.cnn.com/wp-content/uploads/2015/06/150601115126-01-in2white.jpg?quality=100&strip=info',
   title: 'fdsfdsafasdfsaf',
-  paragraph: 'fdjklsajfdksdfafdsafdsfadsfsafdsafdsafdsfasfdsafdsafasdfdsfasfsadfasfasfsdfafdsfasdfasfjñdajkflñajkdfljsañfjdksañjfñajkfjdñkajkfjsdñaf',
+  paragraph:
+    'fdjklsajfdksdfafdsafdsfadsfsafdsafdsafdsfasfdsafdsafasdfdsfasfsadfasfasfsdfafdsfasdfasfjñdajkflñajkdfljsañfjdksañjfñajkfjdñkajkfjsdñaf',
   repo: 'https://www.minecraft.net/es-es'
 }
 
@@ -29,7 +30,8 @@ export const TwoLinks = Template.bind({})
 TwoLinks.args = {
   url: 'https://cnnespanol.cnn.com/wp-content/uploads/2015/06/150601115126-01-in2white.jpg?quality=100&strip=info',
   title: 'fdsfdsafasdfsaf',
-  paragraph: 'fdjklsajfdksdfafdsafdsfadsfsafdsafdsafdsfasfdsafdsafasdfdsfasfsadfasfasfsdfafdsfasdfasfjñdajkflñajkdfljsañfjdksañjfñajkfjdñkajkfjsdñaf',
+  paragraph:
+    'fdjklsajfdksdfafdsafdsfadsfsafdsafdsafdsfasfdsafdsafasdfdsfasfsadfasfasfsdfafdsfasdfasfjñdajkflñajkdfljsañfjdksañjfñajkfjdñkajkfjsdñaf',
   repo: 'https://www.minecraft.net/es-es',
   oficial: 'https://terraria.org/'
 }

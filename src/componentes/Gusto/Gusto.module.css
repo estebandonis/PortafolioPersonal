@@ -4,13 +4,13 @@
   padding: 20px;
   margin: 10px;
   border-radius: 20px;
-  background-color: #FBFCF8;
+  background-color: #fbfcf8;
   color: black;
   transition: all 0.3s ease 0s;
 }
 
 .gusto:hover {
-  box-shadow: 2px 2px 15px 0 rgba(135,135,135, 0.4);
+  box-shadow: 2px 2px 15px 0 rgba(135, 135, 135, 0.4);
   transition: all 0.5s ease 0s;
 }
 

@@ -8,7 +8,7 @@
 .nav {
   width: auto;
   padding: 10px;
-  background-color: #040C0E;
+  background-color: #040c0e;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -23,41 +23,42 @@
 }
 
 .boton {
-  border:none;
-  background-color:offwhite;
-  text-transform:capitalize;
-  cursor:pointer;
-  transform:all 0.3s;
-  position:relative;
+  border: none;
+  background-color: offwhite;
+  text-transform: capitalize;
+  cursor: pointer;
+  transform: all 0.3s;
+  position: relative;
 }
 
-.boton:before{
-  content:"";
-  position :absolute;
-  width:24px;
-  height:24px;
-  top:-5px;
-    left:-5px;
-  border-top:2px solid tomato;
-  border-left:2px solid tomato;
-  transition:all 0.25s;
+.boton:before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -5px;
+  left: -5px;
+  border-top: 2px solid tomato;
+  border-left: 2px solid tomato;
+  transition: all 0.25s;
 }
 
-.boton:hover:before ,.boton:hover:after{
-  width:104%;
-  height:110%;
+.boton:hover:before,
+.boton:hover:after {
+  width: 104%;
+  height: 110%;
 }
 
-.boton:after{
-  content:"";
-  position :absolute;
-  width:24px;
-  height:24px;
-  bottom:-5px;
-    right:-5px;
-  border-bottom:2px solid tomato;
-  border-right:2px solid tomato;
-  transition:all 0.30s;
+.boton:after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: -5px;
+  right: -5px;
+  border-bottom: 2px solid tomato;
+  border-right: 2px solid tomato;
+  transition: all 0.3s;
 }
 
 .boton:active {
@@ -140,10 +141,10 @@
 .principio::after,
 .principio::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 0%;
   height: 0%;
-  visibility: hidden
+  visibility: hidden;
 }
 
 .principio::after {
@@ -151,7 +152,7 @@
   right: -3px;
   border-left: 3px solid white;
   border-bottom: 3px solid white;
-  transition: width .1s ease .1s, height .1s ease, visibility 0s .2s;
+  transition: width 0.1s ease 0.1s, height 0.1s ease, visibility 0s 0.2s;
 }
 
 .principio::before {
@@ -159,11 +160,11 @@
   left: -3px;
   border-top: 3px solid white;
   border-right: 3px solid white;
-  transition: width .1s ease .3s, height .1s ease .2s, visibility 0s .4s;
+  transition: width 0.1s ease 0.3s, height 0.1s ease 0.2s, visibility 0s 0.4s;
 }
 
 .principio:hover {
-  animation: pulse 1s ease-out .4s;
+  animation: pulse 1s ease-out 0.4s;
   color: white;
   background: #132226;
 }
@@ -173,15 +174,15 @@
   width: calc(100% + 3px);
   height: calc(100% + 3px);
   visibility: visible;
-  transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+  transition: width 0.1s ease 0.2s, height 0.1s ease 0.3s, visibility 0s 0.2s;
 }
 
 .principio:hover::after {
-  transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+  transition: width 0.1s ease 0.2s, height 0.1s ease 0.3s, visibility 0s 0.2s;
 }
 
 .principio:hover::before {
-  transition: width .1s ease, height .1s ease .1s;
+  transition: width 0.1s ease, height 0.1s ease 0.1s;
 }
 
 @keyframes coloring_3 {
@@ -233,7 +234,7 @@
 }
 
 .texto::after {
-  content: "Programmer";
+  content: 'Programmer';
   display: inline-block;
   animation: animation 12s steps(12) infinite;
   width: 0ch;
@@ -242,32 +243,32 @@
 
 .texto::before {
   display: inline-block;
-  content: "";
+  content: '';
   width: 2px;
   height: 100%;
   background-color: white;
   position: absolute;
   right: 0;
-  animation: blinking .4s linear alternate infinite;
+  animation: blinking 0.4s linear alternate infinite;
 }
 
 @keyframes animation {
   15% {
-    content: "Programmer";
+    content: 'Programmer';
     width: 9ch;
   }
   30% {
     width: 0ch;
   }
   45% {
-    content: "Christian";
+    content: 'Christian';
     width: 6.5ch;
   }
   60% {
     width: 0ch;
   }
   75% {
-    content: "Gamer";
+    content: 'Gamer';
     width: 5ch;
   }
   87% {
@@ -285,7 +286,7 @@
   min-height: 100vh;
   width: 100%;
   color: white;
-  background-color: #525B56;
+  background-color: #525b56;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -427,7 +428,7 @@
   min-height: 100vh;
   width: 100%;
   color: white;
-  background-color: #BE9063;
+  background-color: #be9063;
   display: flex;
   justify-content: center;
 }
@@ -553,7 +554,7 @@
   min-height: 100vh;
   width: 100%;
   color: white;
-  background-color: #A4978E;
+  background-color: #a4978e;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

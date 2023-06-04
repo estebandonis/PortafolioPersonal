@@ -21,12 +21,13 @@ export const LargeImg = Template.bind({})
 LargeImg.args = {
   url: 'https://cnnespanol.cnn.com/wp-content/uploads/2015/06/150601115126-01-in2white.jpg?quality=100&strip=info',
   title: 'fdjskafjdkañf',
-  paragraph: 'fdjklsajfdksfjñdajkflñajkdfljsañfjdksañjfñajkfjdñkajkfjsdñaf',
+  paragraph: 'fdjklsajfdksfjñdajkflñajkdfljsañfjdksañjfñajkfjdñkajkfjsdñaf'
 }
 
 export const LargeParagraph = Template.bind({})
 LargeParagraph.args = {
   url: 'https://cnnespanol.cnn.com/wp-content/uploads/2015/06/150601115126-01-in2white.jpg?quality=100&strip=info',
   title: 'fdsfdsafasdfsaf',
-  paragraph: 'fdjklsajfdksdfafdsafdsfadsfsafdsafdsafdsfasfdsafdsafasdfdsfasfsadfasfasfsdfafdsfasdfasfjñdajkflñajkdfljsañfjdksañjfñajkfjdñkajkfjsdñaf',
+  paragraph:
+    'fdjklsajfdksdfafdsafdsfadsfsafdsafdsafdsfasfdsafdsafasdfdsfasfsadfasfasfsdfafdsfasdfasfjñdajkflñajkdfljsañfjdksañjfñajkfjdñkajkfjsdñaf'
 }
