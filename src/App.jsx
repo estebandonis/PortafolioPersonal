@@ -265,6 +265,11 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="Contacto">
+        <button onClick={() => { window.open('https://www.linkedin.com/in/esteban-donis-mart%C3%ADnez-384819204/') }} className="linked"><img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" alt="" /></button>
+        <button onClick={() => { window.open('https://twitter.com/EstebanDonis10') }} className="twit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" alt="" /></button>
+        <button onClick={() => { window.open('https://github.com/estebandonis') }} className="git"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" /></button>
+      </div>
     </div>
   )
 }

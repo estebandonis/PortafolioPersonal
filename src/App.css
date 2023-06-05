@@ -602,3 +602,68 @@
   transform: translateY(0px);
   opacity: 1;
 }
+
+.Contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contacto button {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.linked {
+  background-color: red;
+}
+
+.twit {
+  background-color: black;
+}
+
+.linked:hover, .linked button:focus {
+  transform: translateY(3px) translateX(3px);
+  background-color: black;
+  border: 2px solid white;
+}
+
+.twit:hover, .twit button:focus {
+  transform: translateY(3px) translateX(3px);
+  background-color: black;
+  border: 2px solid white;
+}
+
+.git:hover, .git button:focus {
+  transform: translateY(3px) translateX(3px);
+  background-color: white;
+  border: 2px solid white;
+}
+
+.Contacto button img {
+  width: 30px;
+  height: 30px;
+}
+
+.linked {
+  background-color: blue;
+}
+
+.twit {
+  background-color: skyblue;
+}
+
+.git {
+  background-color: white;
+}
